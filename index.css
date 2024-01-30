@@ -1,0 +1,88 @@
+#clockcontainer{
+    margin: auto;
+    
+    height: 40vw;   
+    width: 40vw;
+    background: url(Screenshot\ 2024-01-19\ 112633.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    
+
+}
+
+
+#hour,#minute,#second{
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    height: 17%;
+    width: 1.4%;
+    top: 20%;
+    right: 49.3%;
+    opacity: 0.8;
+}
+
+#minute{
+
+    height: 18%;
+    width: 1.1%;
+    top: 19%;
+    right: 49.3%;
+    opacity: 0.8;
+}
+
+#second{
+
+    height: 21%;
+    width: 1%;
+    top: 16%;
+    right: 49.3%;
+    opacity: 0.8;
+
+
+}
+
+#set{
+    position: relative;
+    top: 83%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    
+    
+    
+}
+
+select{
+    padding-top: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(35, 35, 214);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    
+
+}
+
+
+
+button{
+    position: absolute;
+    height: 20px;
+    top: 170%;
+    left: 40%;
+    border: 2px solid black;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    
+}
