@@ -35,7 +35,7 @@ setInterval(()=>{
   },1000)
 
   select=document.querySelectorAll("select")
-  for(i=12;i>0;i--){
+  for(i=12;i>=0;i--){
     
     let option =`<option value="${i}">${i}</option>`  
     select[0].firstElementChild.insertAdjacentHTML("afterend",option);
@@ -61,6 +61,9 @@ setInterval(()=>{
     console.log(alarmtime);
 
     time=alarmtime;
+
+    var currenttime=`${htime}:${mtime} ${ampm}`;
+    console.log(currenttime);
 
     
 
